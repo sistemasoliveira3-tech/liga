@@ -1,0 +1,31 @@
+{
+  "name": "liga",
+  "version": "1.0.0",
+  "description": "Plataforma SaaS de Gestão Esportiva — Liga",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node server/seed.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "esportes",
+    "liga",
+    "campeonato",
+    "saas",
+    "gestao"
+  ],
+  "author": "Liga",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.11.1",
+    "compression": "^1.8.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.4.0"
+  }
+}
